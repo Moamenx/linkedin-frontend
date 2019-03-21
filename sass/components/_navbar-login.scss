@@ -1,0 +1,36 @@
+.navbar-login {
+    background-color: $primary-1;
+    padding: 1rem;
+
+    .navbar {
+        .navbar-toggler {
+            background-color: white;
+            transition: all 0.1s ease;
+            outline-color: white;
+            padding:0.5rem;
+            &:hover {
+                background-color: #d3d3d3;
+            }
+        }
+
+        .collapsing {
+            transition: none;
+        }
+        .collapse {
+            .form-control, .btn {
+                font-size: 1.2rem;
+                font-weight: 700;
+                line-height: 1.6rem;
+            }
+            .form-control {
+                color:#757575;
+            }
+            .nav-forgot-password {
+                color: white; 
+                font-size: 1.2rem;
+                font-weight: 700;
+                line-height: 1.6rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.register-form {
+    background-color: #F6F8FA;
+    width: 40rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    .form-header {
+        padding:2rem;
+        text-align: center;
+    }
+    .form-body {
+        background-color: #EDF0F3;
+        padding:2rem;
+        .form-group {
+            label {
+                font-size: 1.5rem;
+            }
+            .form-control {
+                font-size: 1.5rem;
+            }
+        }
+        .form-disclaimer {
+            text-align: center;
+            font-size: 1.2rem;
+            color: $gray-1;
+        }
+        .btn {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1.5rem;
+
+        }
+    }
+}

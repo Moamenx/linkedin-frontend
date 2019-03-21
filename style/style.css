@@ -9661,6 +9661,84 @@ html {
 
 body {
   font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-login {
+  background-color: #283E4A;
+  padding: 1rem;
+}
+.navbar-login .navbar .navbar-toggler {
+  background-color: white;
+  transition: all 0.1s ease;
+  outline-color: white;
+  padding: 0.5rem;
+}
+.navbar-login .navbar .navbar-toggler:hover {
+  background-color: #d3d3d3;
+}
+.navbar-login .navbar .collapsing {
+  transition: none;
+}
+.navbar-login .navbar .collapse .form-control, .navbar-login .navbar .collapse .btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+.navbar-login .navbar .collapse .form-control {
+  color: #757575;
+}
+.navbar-login .navbar .collapse .nav-forgot-password {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+
+.register-form {
+  background-color: #F6F8FA;
+  width: 40rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.register-form .form-header {
+  padding: 2rem;
+  text-align: center;
+}
+.register-form .form-body {
+  background-color: #EDF0F3;
+  padding: 2rem;
+}
+.register-form .form-body .form-group label {
+  font-size: 1.5rem;
+}
+.register-form .form-body .form-group .form-control {
+  font-size: 1.5rem;
+}
+.register-form .form-body .form-disclaimer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #606162;
+}
+.register-form .form-body .btn {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.index .navbar-login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.index .register {
+  background: url("../images/backgrounds/index.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  padding-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

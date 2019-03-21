@@ -6,6 +6,7 @@
 
 
 // Abstracts
+
 @import './abstracts/functions';
 @import './abstracts/mixins';
 @import './abstracts/variables';
@@ -21,3 +22,12 @@
 
 
 
+// Components
+
+@import './components/navbar-login';
+@import './components/register-form';
+
+
+// Pages
+
+@import './pages/index';
